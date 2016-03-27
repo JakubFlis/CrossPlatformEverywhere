@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="RockPaperScissors.GamePage">
+	<ContentPage.Content>
+		<StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+			<Button HorizontalOptions="FillAndExpand" HeightRequest="50" Text="ROCK" BackgroundColor="Gray" TextColor="White" Clicked="OnUserChoiceButtonClicked"/>
+			<Button HorizontalOptions="FillAndExpand" HeightRequest="50" Text="PAPER" BackgroundColor="Gray" TextColor="White" Clicked="OnUserChoiceButtonClicked"/>
+			<Button HorizontalOptions="FillAndExpand" HeightRequest="50" Text="SCISSORS" BackgroundColor="Gray" TextColor="White" Clicked="OnUserChoiceButtonClicked"/>
+			<Label x:Name="ComputerChoiceLabel" Text="Computer:"/>
+			<Label x:Name="UserChoiceLabel" Text="You:"/>
+			<Label x:Name="ResultLabel" Text="Result:"/>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

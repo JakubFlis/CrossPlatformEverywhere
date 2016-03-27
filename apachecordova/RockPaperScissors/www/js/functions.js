@@ -52,11 +52,5 @@ function getRandomInt(min, max) {
 }
 
 function showResultsToUser(didUserWin) {
-    var result = document.getElementById("result");
-    
-    if (didUserWin) {
-        result.innerHTML = "YOU WON!";
-    } else {
-        result.innerHTML = "YOU LOST!";
-    }
+     document.getElementById("result").innerHTML = didUserWin ? "YOU WON!" : "YOU LOST!";
 }

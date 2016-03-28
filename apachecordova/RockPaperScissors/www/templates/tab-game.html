@@ -1,20 +1,20 @@
 <ion-view view-title="The Game">
   <ion-content class="padding">
-    <h2>Welcome to Rock Papers Scissors</h2>
-        
-    <button class="button button-full button-positive" id="rock" onclick="handleUserChoice(0)">
-    ROCK
-    </button>
-    <button class="button button-full button-positive" id="paper" onclick="handleUserChoice(1)">
-    PAPER
-    </button>
-    <button class="button button-full button-positive" id="scissors" onclick="handleUserChoice(2)">
-    SCISSORS
-    </button>
     
-    <p id="computer-choice"></p>
-    <p id="user-choice"></p>
-    <p id="result"></p>
-  
+    <img id="computer-choice-image" src='img/no_choice.png' width="120" height="120">
+    
+    <p id="computer-choice">?</p>
+    <p>VS</p>
+    <p id="user-choice">?</p>
+    <p id="result">Who's gonna win...?</p>
+    
+    <img id="user-choice-image" src='img/no_choice.png' width="120" height="120">
+    
+    <div>
+        <img src='img/rock.png' width="75" height="75" onclick="handleUserChoice(0)">
+        <img src='img/paper.png' width="75" height="75" onclick="handleUserChoice(1)">
+        <img src='img/scissors.png' width="75" height="75" onclick="handleUserChoice(2)">
+    </div>
+    
   </ion-content>
 </ion-view>

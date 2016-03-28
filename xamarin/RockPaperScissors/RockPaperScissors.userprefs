@@ -1,4 +1,4 @@
-﻿<Properties StartupItem="Droid/RockPaperScissors.Droid.csproj">
+﻿<Properties StartupItem="iOS/RockPaperScissors.iOS.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" />
   <MonoDevelop.Ide.Workbench ActiveDocument="RockPaperScissors/MainMenuTabbedPage.xaml">
     <Files>

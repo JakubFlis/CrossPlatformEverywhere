@@ -9,7 +9,7 @@ namespace RockPaperScissors
 		public App ()
 		{
 			// The root page of your application
-			MainPage = new GamePage();
+			MainPage = new MainMenuTabbedPage();
 		}
 
 		protected override void OnStart ()

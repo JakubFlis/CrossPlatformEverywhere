@@ -1,20 +1,26 @@
 <ion-view view-title="The Game">
   <ion-content class="padding">
-    
-    <img id="computer-choice-image" src='img/no_choice.png' width="120" height="120">
-    
-    <p id="computer-choice">?</p>
-    <p>VS</p>
-    <p id="user-choice">?</p>
-    <p id="result">Who's gonna win...?</p>
-    
-    <img id="user-choice-image" src='img/no_choice.png' width="120" height="120">
-    
-    <div>
-        <img src='img/rock.png' width="75" height="75" onclick="handleUserChoice(0)">
-        <img src='img/paper.png' width="75" height="75" onclick="handleUserChoice(1)">
-        <img src='img/scissors.png' width="75" height="75" onclick="handleUserChoice(2)">
+    <div style="position:relative;">
+        <div class="inner-div">
+            <img class="computer-image" id="computer-choice-image" src='img/no_choice.png'>
+        </div>
+        
+        <div class="inner-div">
+            <p class="score-text" id="computer-choice">Computer:</p>
+            <p class="score-text" >vs.</p>
+            <p class="score-text" id="user-choice">You:</p>
+            <p class="score-text" id="result">The winner is...</p>
+        </div>
+        
+       <div class="inner-div">
+           <img class="computer-image" id="user-choice-image" src='img/no_choice.png'>
+       </div>
+       
+       <div class="inner-div">
+            <img class="user-image" src='img/rock.png' onclick="handleUserChoice(0)">
+            <img class="user-image" src='img/paper.png' onclick="handleUserChoice(1)">
+            <img class="user-image" src='img/scissors.png' onclick="handleUserChoice(2)">
+        </div>
     </div>
-    
   </ion-content>
 </ion-view>

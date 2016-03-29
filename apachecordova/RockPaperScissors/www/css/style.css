@@ -1,1 +1,20 @@
-/* Empty. Add your own CSS if you like */
+.inner-div {
+    width: 90%;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.user-image {
+    width: 90px;
+    height: 90px;
+}
+
+.computer-image {
+    width: 120px;
+    height: 120px;
+}
+
+.score-text {
+    font-size: 14pt;
+    color: black;
+}

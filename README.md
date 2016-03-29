@@ -11,7 +11,7 @@ Each project contans a Rock Paper Scissors game with identical logic and UI, pro
 
 ### Prerequisites
 
-Each of these projects requre Android SDK for Android development and XCode along with XCode command line tools for Android SDK.
+Each of these projects requre Android SDK for Android development and XCode along with XCode command line tools for Android SDK. Make sure that all environmental variables are set properly.  
 
 **Apache Cordova and Ionic:**
 - Node.js: https://nodejs.org/en/
@@ -19,6 +19,13 @@ Each of these projects requre Android SDK for Android development and XCode alon
 ```sh
 $ npm install -g cordova ionic
 $ sudo npm -g install ios-sim (for iOS development)
+```
+
+Before using Cordova project, there may be a need for re-adding launch.json file and platform files. In order to do that, make sure you are in the project root directory, then type in Terminal: 
+
+```sh
+$ ionic platform add android
+$ ionic platform add ios
 ```
 
 **IDEs:**
